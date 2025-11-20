@@ -1,18 +1,32 @@
-# Practice
+# Before deploying to github pages
 
-- Refactor the style.css to comply to the BEM blocks architecture
+## Your project is a git repository
 
-  - BEM Architecture: One file per block, all the styles for that block should be on that file
+If you cloned the project from your own github account, then it's a repository. Anything that you clone from github will be a repository
 
-  Blocks:
+## Check if you're on the right folder
 
-  - page
-  - header
-  - nav
-  - staff
-  - card
-  - membership
-  - step
-  - footer
+First you can check the path you're in by doing:
 
-- Make the website responsive
+```sh
+# Print Working Directory
+pwd
+```
+
+You can further verify if you're on the right folder by running:
+
+```sh
+ls
+```
+
+If `ls` only prints the project files/folders to the terminal that means that you're on the right place
+
+## Always try using the VScode built-in terminal
+
+## You need to commit all the changes
+
+- `git add -A` -> To stage all the changes
+- `git commit -m "YOUR COMMIT MESSAGE"` -> To save all the changes
+
+CI = Continuous Integration
+CD = Continous Deployment

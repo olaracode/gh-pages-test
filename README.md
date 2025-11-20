@@ -30,3 +30,6 @@ If `ls` only prints the project files/folders to the terminal that means that yo
 
 CI = Continuous Integration
 CD = Continous Deployment
+
+- [Github Pages](https://olaracode.github.io/gh-pages-test/)
+- Github Pages: https://olaracode.github.io/gh-pages-test/

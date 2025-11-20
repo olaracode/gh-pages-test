@@ -1,0 +1,39 @@
+.step {
+  flex: 0 0 220px;
+}
+
+.step__title {
+  margin: 0;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 700;
+  display: flex;
+
+  align-items: center;
+}
+
+.step__icon {
+  margin-left: 20px;
+  transition: transform 0.5s ease-in-out;
+}
+
+.step__description {
+  margin: 10px 0 0;
+}
+
+@media (max-width: 1080px) {
+  .step {
+    flex: unset;
+    text-align: center;
+  }
+  .step__title {
+    justify-content: center;
+    text-align: center;
+  }
+  .step__description {
+    text-align: center;
+  }
+  .step__icon {
+    transform: rotate(90deg);
+  }
+}
